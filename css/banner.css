@@ -1,0 +1,48 @@
+#banner{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.992), rgba(58, 101, 72, 0.603)), url(../img/banner/bannerWallpaper.jpg);
+    background-size: cover;
+    background-position-y: 32%;
+}
+#titleBanner{
+    font-size: 4rem;
+    color: white;
+}
+#textBanner{
+    font-size:1.5rem;
+    font-family:'Courier New', Courier, monospace
+}
+#paddingBanner{
+    padding-top: 50px;
+}
+@media(max-width: 768px){
+    #banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position-y: 32%;
+        background-position-x: 40%;
+        background-size: 220%;
+        background-repeat: no-repeat;
+        padding-top: 10px;
+    }
+    #titleBanner{
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+        width: 70%;
+    }
+    #textBanner{
+        margin-top: 20px;
+        font-size:1.2rem;
+        width: 60%;
+        font-family:'Courier New', Courier, monospace;
+        text-align: center;
+    }
+}
