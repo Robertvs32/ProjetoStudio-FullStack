@@ -1,0 +1,149 @@
+#depoimentos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0px 0;
+    padding-bottom: 100px;
+    border-bottom: 2px solid white;
+}
+#titleDepoimentos{
+    color: rgb(0, 255, 0);
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#textDepoimentos{
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: center;
+}
+.cardDepoimentos{
+    background-color: rgb(30, 32, 38);
+    min-height: 350px;
+    width: 23%;
+    border-radius: 6px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    box-shadow: 0 0 10px rgb(154, 167, 152);
+    transition: transform 0.5s ease;
+}
+.cardDepoimentos:hover{
+    transform: translateY(-20px);
+}
+.imgCardDepoimentos{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    padding: 7px;
+    border-radius: 100%; 
+    margin-bottom: 10px;
+    border: 3.5px solid rgb(0, 255, 0);
+}
+.titleCardDepoimentos{
+    font-size: 1.4rem;
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+.textCardDepoimentos{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+#linkDepoimentos{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin: 40px 0 50px 0;
+    text-decoration: none;
+    border: 2px solid rgb(0, 255, 0);
+    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+#linkDepoimentos:hover{
+    background-color: rgb(0, 255, 0);
+    color: white;
+    border: 2px solid rgb(0, 255, 0);
+    cursor: pointer;
+}
+#evolucoes{
+    background-image: linear-gradient(rgba(49, 212, 82, 0.373) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(52, 118, 58, 0.396) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.cardEvolucoes{
+    background-color: rgb(34, 33, 39);
+    width: 27%;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 9px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.cardEvolucoes:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px white;
+}
+.imgEvolucoes{
+    background-color: purple;
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+.titleTextEvo{
+    padding: 22px;
+    width: 100%;
+    color: rgb(0, 255, 0);
+    height: 40%;
+}
+.titleEvolucoes{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+.textEvolucoes{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+@media(max-width: 1230px){
+    #depoimentos{
+        flex-direction: column; 
+    }
+    .cardDepoimentos{
+        width: 50%;
+    }
+    #evolucoes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardEvolucoes{
+        width: 60%;
+        min-height: 0;
+    }
+    .imgEvolucoes{
+        height: auto;
+    }
+}
+
+@media(max-width: 680px){
+    .cardEvolucoes{
+        width: 90%;
+    }
+}
+
+
+@media(max-width: 500px){
+    .cardDepoimentos{
+        width: 75%;
+    }
+}
+

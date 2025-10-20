@@ -65,20 +65,20 @@
     transform: rotate(180deg);
 }
 #linkSaibaMais{
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(255, 255, 255);
     padding: 5px 15px;
     font-size: 1.4rem;
     border-radius: 5px;
-    color: white;
+    color: black;
     margin-top: 70px;
     text-decoration: none;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 255, 0);
     transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
 }
 #linkSaibaMais:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 255, 0);
-    border: 2px solid rgb(0, 255, 0);
+    background-color: rgb(0, 255, 0);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
     cursor: pointer;
 }
 

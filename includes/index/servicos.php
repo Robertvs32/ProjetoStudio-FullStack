@@ -20,4 +20,4 @@
     </div>
 </div>
 
-<a id="linkPlanos" href="">Conheça nossos planos</a>
+<a id="linkPlanos" href="./planos.php">Conheça nossos planos</a>

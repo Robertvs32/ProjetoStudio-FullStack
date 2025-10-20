@@ -1,0 +1,131 @@
+.planosPromo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid white;
+    background-image: linear-gradient(rgba(0, 128, 0, 0.508) 0%, black 5%, black 95%, rgba(0, 128, 0, 0.651) 100%);
+}
+.titlePlanosPromo{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    margin: 25px 0 25px 0;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 10px 15px 10px 15px;
+}
+.imgPlanosPromo{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+    border-radius: 15%;
+    box-shadow: 0 0 40px rgb(0, 255, 0);
+}
+.textPlanosPromo{
+    width: 60%;;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 30px 0 50px 0; 
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding: 0 15px;
+}
+.planoVlsPromo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.cardPlanoPromo{
+    background-color: rgb(243, 243, 240);
+    margin: 17px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px 60px 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 28px rgb(0, 255, 0);
+}
+.titlePlanoPromo{
+    font-size: 1.85rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.valorPlanoPromo{
+    background-color: rgb(11, 119, 12);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.45rem;
+    text-align: center;
+}
+.bnfPlanoPromo{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.beneficiosPlanoPromo{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.bnfCardPromo{
+    background-color: rgba(215, 215, 215, 0.55);
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.468);
+    width: 100%;
+    justify-content: center;
+    padding: 6px;
+    align-items: center;
+}
+.bnfCardPromo img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.btnCadastroPromo{
+    padding: 15px 25px;
+    font-size: 1.3rem;
+    border-radius: 7px; 
+    background-color: white; 
+    margin: 0px 0 65px 0;
+    color: black;
+    transition: background-color 0.7s linear, box-shadow 0.3s linear, color 0.2s linear, transform 0.25s linear;
+    text-decoration: none;
+}
+.btnCadastroPromo:hover{
+    background-color: rgba(0, 255, 42, 0.637);
+    box-shadow: 0 0 30px green;
+    color: white;
+    /* transform: scale(1.08); */
+    cursor: pointer;
+}
+
+
+@media(max-width: 1025px){
+    .planoVlsPromo{
+        flex-direction: column;
+    }
+    .cardPlanoPromo{
+        width: 60%;
+    }
+    .beneficiosPlanoPromo{
+        width: 60%;
+    }
+}
+
+@media(max-width: 600px){
+    .titlePlanoPromo{
+        font-size: 1.5rem;
+    }   
+}

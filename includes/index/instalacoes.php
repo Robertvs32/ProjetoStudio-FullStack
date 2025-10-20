@@ -13,5 +13,5 @@
         </button>
     </div>
 
-    <a id="linkSaibaMais" href="www.youtube.com">Saiba mais sobre nós</a>
+    <a id="linkSaibaMais" href="./sobreNos.php">Saiba mais sobre nós</a>
 </div>

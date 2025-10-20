@@ -13,5 +13,5 @@
         </button>
     </div>
 
-    <a id="linkCasosSucesso" href="www.youtube.com">Veja todos os depoimentos</a>
+    <a id="linkCasosSucesso" href="./depoimentos.php">Veja todos os depoimentos</a>
 </div>
