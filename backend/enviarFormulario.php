@@ -15,7 +15,7 @@
         $cpf = $dadosRecebidos['cpf'] ?? 'indefinido';
         $endereco = $dadosRecebidos['endereco'] ?? 'indefinido';
         $contato_whatsapp = $dadosRecebidos['contato_whatsapp'] ?? 'indefinido'; 
-        $peso = $dadosRecebidos['peso'] || 'indefinido';
+        $peso = $dadosRecebidos['peso'] ?? 'indefinido' : ;
         $altura = $dadosRecebidos['altura'] ?? 'indefinido';
         $sexo = $dadosRecebidos['sexo'] ?? 'indefinido';
         $plano = $dadosRecebidos['plano'] ?? 'indefinido';
