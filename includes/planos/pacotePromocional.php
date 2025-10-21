@@ -6,17 +6,17 @@
     <div class="planoVlsPromo">
         <div class="cardPlanoPromo">
             <h3 class="titlePlanoPromo">Plano Mensal</h3>
-            <p class="valorPlanoPromo">1x de R$ 249,90</p>
+            <p class="valorPlanoPromo">1x de R$ <?php echo $promocional_mensal?></p>
         </div>
 
         <div class="cardPlanoPromo">
             <h3 class="titlePlanoPromo">Plano Trimestral</h3>
-            <p class="valorPlanoPromo">3x de R$ 219,90</p>
+            <p class="valorPlanoPromo">3x de R$ <?php echo $promocional_trimestral?></p>
         </div>
 
         <div class="cardPlanoPromo">
             <h3 class="titlePlanoPromo">Plano Semestral</h3>
-            <p class="valorPlanoPromo">6x de R$ 179,90</p>
+            <p class="valorPlanoPromo">6x de R$ <?php echo $promocional_semestral?></p>
         </div>
     </div>
 

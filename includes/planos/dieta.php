@@ -6,17 +6,17 @@
     <div class="planoVls">
         <div class="cardPlano">
             <h3 class="titlePlano">Plano Mensal</h3>
-            <p class="valorPlano">1x de R$ 89,90</p>
+            <p class="valorPlano">1x de R$ <?php echo $dieta_mensal?></p>
         </div>
 
         <div class="cardPlano">
             <h3 class="titlePlano">Plano Trimestral</h3>
-            <p class="valorPlano">3x de R$ 69,90</p>
+            <p class="valorPlano">3x de R$ <?php echo $dieta_trimestral?></p>
         </div>
 
         <div class="cardPlano">
             <h3 class="titlePlano">Plano Semestral</h3>
-            <p class="valorPlano">6x de R$ 49,90</p>
+            <p class="valorPlano">6x de R$ <?php echo $dieta_semestral?></p>
         </div>
     </div>
 

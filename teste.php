@@ -6,7 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include './backend/conexaodb.php'?>
-    <?php include './backend/buscaInfos.php'?>
+    <?php 
+        $dadosRecebidos = file_get_contents('php://input');
+
+        echo "<pre>";
+        print_r($dadosRecebidos);
+        echo "</pre>";
+    ?>
 </body>
 </html>

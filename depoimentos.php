@@ -1,3 +1,13 @@
+<?php require_once './backend/conexaodb.php';?>
+
+<?php 
+    require_once './backend/buscaInfos.php';
+    $nome = $informacoes['nome'];
+    $instagram = $informacoes['link_instagram'];
+    $youtube = $informacoes['link_youtube'];
+    $tiktok = $informacoes['link_tiktok'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -50,7 +60,7 @@
 
     <a id="linkDepoimentos" href="./planos.php">Faça parte do nosso time</a>
 
-    <?php include './includes/footer.php'?>
+    <?php include './includes/footer.php';?>
 
 </body>
 </html>
