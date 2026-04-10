@@ -10,3 +10,5 @@
 Site institucional para um Studio de treinamento, onde foi implementado um crud simples e integração com api do gemini para criar um chatBot dentro do site.
 
 O objetivo desse projeto foi solidificar os conhecimento de php, mysql e a comunicação entre front-end e back-end.
+
+<a href="https://lavender-termite-798116.hostingersite.com/" target="_blank">Link para acessar o projeto</a>
